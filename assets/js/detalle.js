@@ -14,6 +14,7 @@ document.addEventListener(
 
     const detalle = document.getElementById("detalle_planeta");
     const contenedor = document.getElementById("contenedor_tiempo_semanal");
+    const zona_img = document.getElementById("img_planeta")
 
 
     if(planeta){
@@ -54,6 +55,16 @@ document.addEventListener(
         </p>
 
         `;
+
+        zona_img.innerHTML=`
+        <img
+        max-width: 300px;
+        height: auto;
+        src="${planeta.imagen_url}"
+        class="card-img-top"
+        alt="${planeta.nombre}"
+        >
+        `
 
 
         planeta.pronostico.forEach(

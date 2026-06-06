@@ -6,6 +6,7 @@ const planetas_ss = [
         temp:"430°C",
         estado:"Calor extremo",
         icono:"🔥",
+        imagen_url:"https://science.nasa.gov/wp-content/uploads/2023/05/mercury-from-messenger-pia15160-1920x640-1.jpg",
 
         humedad:"0%",
         viento:"3 km/h",
@@ -32,6 +33,7 @@ const planetas_ss = [
         temp:"465°C",
         estado:"Tormenta ácida",
         icono:"☁️",
+        imagen_url:"https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/03/venus-mariner-10-pia23791-fig2.jpg",
 
         humedad:"96%",
         viento:"360 km/h",
@@ -58,6 +60,7 @@ const planetas_ss = [
         temp:"15°C",
         estado:"Despejado",
         icono:"☀️",
+        imagen_url:"https://science.nasa.gov/wp-content/uploads/2023/05/earth-1-jpg.webp",
 
         humedad:"65%",
         viento:"15 km/h",
@@ -84,6 +87,7 @@ const planetas_ss = [
         temp:"-63°C",
         estado:"Tormenta de polvo",
         icono:"🌪️",
+        imagen_url:"https://science.nasa.gov/wp-content/uploads/2024/03/mars-full-globe-16x9-1.jpg",
 
         humedad:"5%",
         viento:"120 km/h",
@@ -110,6 +114,7 @@ const planetas_ss = [
         temp:"-145°C",
         estado:"Tormenta gigante",
         icono:"⛈️",
+        imagen_url:"https://science.nasa.gov/wp-content/uploads/2024/03/jupiter-marble-pia22946-16x9-1.jpg",
 
         humedad:"89%",
         viento:"620 km/h",
@@ -136,6 +141,7 @@ const planetas_ss = [
         temp:"-178°C",
         estado:"Vientos intensos",
         icono:"💨",
+        imagen_url:"https://science.nasa.gov/wp-content/uploads/2023/05/saturn-farewell-pia21345-sse-banner-1920x640-1.jpg",
 
         humedad:"75%",
         viento:"1800 km/h",
@@ -162,6 +168,7 @@ const planetas_ss = [
         temp:"-224°C",
         estado:"Frío extremo",
         icono:"❄️",
+        imagen_url:"https://science.nasa.gov/wp-content/uploads/2024/03/uranus-pia18182-16x9-1.jpg",
 
         humedad:"68%",
         viento:"900 km/h",
@@ -188,6 +195,7 @@ const planetas_ss = [
         temp:"-214°C",
         estado:"Vientos supersónicos",
         icono:"🌬️",
+        imagen_url:"https://science.nasa.gov/wp-content/uploads/2024/03/pia01492-neptune-full-disk-16x9-1.jpg",
 
         humedad:"72%",
         viento:"2100 km/h",
@@ -214,6 +222,7 @@ const planetas_ss = [
         temp:"-229°C",
         estado:"Nieve de nitrógeno",
         icono:"❄️",
+        imagen_url:"https://science.nasa.gov/wp-content/uploads/2024/03/pluto-new-horizons-pia20291-16x9-1.jpg",
 
         humedad:"2%",
         viento:"15 km/h",
@@ -240,6 +249,7 @@ const planetas_ss = [
         temp:"-105°C",
         estado:"Superficie helada",
         icono:"🧊",
+        imagen_url:"https://science.nasa.gov/wp-content/uploads/2024/03/ceres-dawn-pia19562-16x9-1.jpg",
 
         humedad:"1%",
         viento:"8 km/h",
@@ -266,6 +276,7 @@ const planetas_ss = [
         temp:"-241°C",
         estado:"Hielo cristalino",
         icono:"🧊",
+        imagen_url:"https://science.nasa.gov/wp-content/uploads/2024/03/haumea-30jun2015-22-28ok2-final-16x9-1.jpg",
 
         humedad:"0%",
         viento:"12 km/h",
@@ -292,6 +303,7 @@ const planetas_ss = [
         temp:"-239°C",
         estado:"Escarcha espacial",
         icono:"❄️",
+        imagen_url:"https://science.nasa.gov/wp-content/uploads/2024/03/dwarf-planet-makemake-16x9-1.jpg",
 
         humedad:"0%",
         viento:"18 km/h",
@@ -318,6 +330,7 @@ const planetas_ss = [
         temp:"-243°C",
         estado:"Invierno eterno",
         icono:"🌌",
+        imagen_url:"https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/e/ErisArtistConcept1200w.jpg",
 
         humedad:"0%",
         viento:"25 km/h",
@@ -348,6 +361,7 @@ const exoplanetas = [
         temp:"-39°C",
         estado:"Frío rocoso",
         icono:"❄️",
+        imagen_url:"https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/assets/content/planets/superearth-7.jpg",
 
         humedad:"15%",
         viento:"95 km/h",
@@ -374,6 +388,7 @@ const exoplanetas = [
         temp:"22°C",
         estado:"Posible zona habitable",
         icono:"🌎",
+        imagen_url:"https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/2024/03/Kepler22b.jpg",
 
         humedad:"72%",
         viento:"28 km/h",
@@ -400,6 +415,7 @@ const exoplanetas = [
         temp:"-22°C",
         estado:"Posible océano helado",
         icono:"🧊",
+        imagen_url:"https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/2024/03/TRAPPIST-1e.png",
 
         humedad:"60%",
         viento:"55 km/h",
@@ -426,6 +442,7 @@ const exoplanetas = [
         temp:"1200°C",
         estado:"Gigante gaseoso ardiente",
         icono:"🔥",
+        imagen_url:"https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/assets/content/planets/gasgiant-7.jpg",
 
         humedad:"100%",
         viento:"1400 km/h",
@@ -452,6 +469,7 @@ const exoplanetas = [
         temp:"1000°C",
         estado:"Atmósfera evaporándose",
         icono:"☄️",
+        imagen_url:"https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/assets/content/planets/gasgiant-7.jpg",
 
         humedad:"95%",
         viento:"10000 km/h",
