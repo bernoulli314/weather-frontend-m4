@@ -1,7 +1,7 @@
 body {
-  background: rgb(17, 12, 23);
+  background: rgb(245, 245, 245);
   font-family: Consolas, sans-serif;
-  color: white;
+  color: rgb(22, 22, 22);
 }
 body::before {
   content: "";
@@ -19,6 +19,7 @@ body::before {
   padding: 0.6rem 1.2rem;
   border-radius: 8px;
   cursor: pointer;
+  color: rgb(22, 22, 22);
   transition: all 0.3s ease;
 }
 .btn:hover {
@@ -46,20 +47,27 @@ body::before {
 .btn__exo:hover {
   box-shadow: 0 0 15px rgba(123, 31, 162, 0.6);
 }
+.btn__footer {
+  background: linear-gradient(135deg, rgb(26, 3, 36), rgb(2, 4, 14));
+  border: none;
+}
+.btn__footer:hover {
+  box-shadow: 0 0 15px rgba(26, 3, 36, 0.6);
+}
 
 .place-card {
   padding: 25px;
-  background: linear-gradient(135deg, rgb(17, 12, 23), rgb(29, 11, 27));
-  color: white;
+  background: linear-gradient(135deg, rgb(245, 245, 245), rgb(255, 255, 255));
+  color: rgb(22, 22, 22);
   text-align: center;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 10px 25px rgba(0, 35, 133, 0.4);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   transition: transform 1.3s, box-shadow 1.3s;
 }
 .place-card:hover {
   transform: translateY(-20px);
-  box-shadow: 0 15px 30px rgba(0, 110, 255, 0.53);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
 }
 .place-card__name {
   font-size: 2rem;
@@ -73,7 +81,7 @@ body::before {
 .place-card__temp {
   font-size: 2rem;
   font-weight: bold;
-  color: rgb(135, 206, 250);
+  color: rgb(0, 119, 182);
   margin-bottom: 10px;
 }
 .place-card__status {
@@ -90,6 +98,7 @@ body::before {
   margin-bottom: 1rem;
   position: relative;
   z-index: 1;
+  color: rgb(22, 22, 22);
 }
 
 .weather-content__titulo {
@@ -100,7 +109,7 @@ body::before {
   z-index: 1;
 }
 .weather-content__texto {
-  color: white;
+  color: rgb(22, 22, 22);
 }
 .weather-content__input {
   max-width: 600px;
@@ -111,8 +120,8 @@ body::before {
 }
 
 .aside {
-  background: rgb(29, 11, 27);
-  color: white;
+  background: rgb(255, 255, 255);
+  color: rgb(22, 22, 22);
 }
 .aside__titulo {
   text-align: center;
@@ -130,6 +139,7 @@ body::before {
 
 .footer__texto {
   font-size: 0.9rem;
+  color: rgb(22, 22, 22);
 }
 
 /*# sourceMappingURL=main.css.map */

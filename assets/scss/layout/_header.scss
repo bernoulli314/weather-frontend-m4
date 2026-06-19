@@ -12,5 +12,6 @@
 
     &__titulo{
         @include m.titulo-seccion;
+        color: v.$text-color;
     }
 }

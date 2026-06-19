@@ -24,4 +24,11 @@
         @include m.planet-button(rgb(123, 31, 162), rgb(40, 53, 147));
 
     }
+
+    &__footer{
+
+        @include m.planet-button(rgb(26, 3, 36), rgb(2, 4, 14));
+        color: v.$text-color
+
+    }
 }
