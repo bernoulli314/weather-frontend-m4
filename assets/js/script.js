@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     const contenedor = document.getElementById("contenedor_planetas");
 
-    const botonSS = document.querySelector(".btn-ss");
-    const botonExo = document.querySelector(".btn-exo");
+    const botonSS = document.querySelector(".btn__ss");
+    const botonExo = document.querySelector(".btn__exo");
 
     function mostrarPlanetas(lista){
 

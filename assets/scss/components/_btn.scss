@@ -3,10 +3,25 @@
 
 .btn {
 
+    @include m.boton;
+
     transition: transform .3s;
 
     &:hover {
 
         transform: scale(1.05);
+    }
+
+    &__ss{
+
+        @include m.planet-button(rgb(255, 152, 0), rgb(255, 87, 34));
+
+
+    }
+
+    &__exo{
+
+        @include m.planet-button(rgb(123, 31, 162), rgb(40, 53, 147));
+
     }
 }

@@ -1,20 +1,22 @@
 @use '../abstracts/variables' as v;
 @use '../abstracts/mixins' as m;
 
-.aside{
-
-    background: v.$bg-secondary;
-    color: v.$text-color;
+.weather-content{
 
     &__titulo {
         @include m.titulo-seccion;
     }
 
     &__texto {
-        line-height: 1.5;
+        color: v.$text-color;
     }
 
-    &__img {
-        margin-top: 1rem;
+    &__input {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    &__grid {
+        margin-top: 2rem;
     }
 }

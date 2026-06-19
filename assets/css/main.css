@@ -15,10 +15,36 @@ body::before {
 }
 
 .btn {
+  border: 0;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  font-weight: bold;
+}
+.btn {
   transition: transform 0.3s;
 }
 .btn:hover {
   transform: scale(1.05);
+}
+.btn__ss {
+  background: linear-gradient(135deg, rgb(255, 152, 0), rgb(255, 87, 34));
+  border: none;
+}
+.btn__ss:hover {
+  box-shadow: 0 0 15px rgba(255, 152, 0, 0.6);
+}
+.btn__exo {
+  background: linear-gradient(135deg, rgb(123, 31, 162), rgb(40, 53, 147));
+  border: none;
+}
+.btn__exo:hover {
+  box-shadow: 0 0 15px rgba(123, 31, 162, 0.6);
 }
 
 .place-card {
@@ -58,13 +84,42 @@ body::before {
 .header__nav {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
+.header__titulo {
+  text-align: center;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.weather-content__titulo {
+  text-align: center;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+.weather-content__texto {
+  color: white;
+}
+.weather-content__input {
+  max-width: 600px;
+  margin: auto;
+}
+.weather-content__grid {
+  margin-top: 2rem;
+}
 
 .aside {
   background: rgb(29, 11, 27);
   color: white;
 }
 .aside__titulo {
-  font-weight: bold;
+  text-align: center;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
 }
 .aside__texto {
   line-height: 1.5;

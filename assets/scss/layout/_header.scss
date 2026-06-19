@@ -1,12 +1,16 @@
 @use '../abstracts/variables' as v;
 @use '../abstracts/mixins' as m;
 
-.header {
+.header{
 
-    &__nav {
+    &__nav{
 
         box-shadow:
             0 5px 15px
             rgba(0, 0, 0, 0.4);
+    }
+
+    &__titulo{
+        @include m.titulo-seccion;
     }
 }

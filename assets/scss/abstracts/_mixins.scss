@@ -1,8 +1,6 @@
 @use '../abstracts/variables' as v;
 
-@mixin boton($fondo) {
-  background: $fondo;
-  color: white;
+@mixin boton{
   border: 0;
   padding: 0.6rem 1.2rem;
   border-radius: 8px;
@@ -19,13 +17,30 @@
 
 }
 
-@mixin titulo-seccion {
+@mixin titulo-seccion{
 
     text-align:center;
-    font-size:3rem;
+    font-size: clamp(1.5rem, 5vw, 2rem);
     margin-bottom:1rem;
 
     position:relative;
     z-index:1;
 
+}
+
+@mixin planet-button($c1, $c2){
+
+    background: linear-gradient(
+        135deg,
+        $c1,
+        $c2
+    );
+
+    border: none;
+
+    &:hover {
+
+        box-shadow:
+            0 0 15px rgba($c1, .6);
+    }
 }

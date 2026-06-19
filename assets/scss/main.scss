@@ -7,10 +7,10 @@
 
 // COMPONENTS
 @use 'components/btn';
-@import 'components/place-card';
+@use 'components/place-card';
 
 // LAYOUT
-@import 'layout/header';
-@import 'layout/main';
-@import 'layout/aside';
-@import 'layout/footer';
+@use 'layout/header';
+@use 'layout/weather-content';
+@use 'layout/aside';
+@use 'layout/footer';
